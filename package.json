@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+"version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/server/server.js",
+    "start": "node ./src/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A Node.js backend API for machine learning predictions using TensorFlow.js.",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@google-cloud/storage": "^7.14.0",
+    "@hapi/hapi": "^21.3.12",
+    "@tensorflow/tfjs-node": "^3.21.1",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.7"
+  }
+}
